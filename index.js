@@ -1,18 +1,16 @@
 const { google } = require('googleapis');
 const fs = require('fs');
 const cron = require('node-cron');
+require('dotenv').config(); // Load environment variables from .env
 
-// Load the service account credentials from the JSON file
-const keys = require('./excel-connector-437506-b1009f5d0c3a.json');
+const privateKey = process.env.PRIVATE_KEY;
 
-// Create a JWT client using the loaded credentials
 const client = new google.auth.JWT(
-  keys.client_email,
+  process.env.CLIENT_EMAIL,
   null,
-  keys.private_key,
+  privateKey,
   ['https://www.googleapis.com/auth/spreadsheets']
 );
-
 // Specify your Google Sheets IDs
 const sourceSheetId = '1l9GrPrsmQ_oswA5UtUk08UTqTczz5sdQVb_hsmjOl7w'; // Link 1
 const targetSheetId = '1JeJ1iX2QaE4XioIhbQoVdEmYe9gXv10E4Uq-OUS9-hY'; // Link 2
@@ -44,7 +42,7 @@ async function syncSheets() {
         values: sourceData.data.values,
       },
     });
-
+    console.log('Sync completed successfully!');
     
   } catch (error) {
     console.error('Error syncing sheets:', error.message);
@@ -53,7 +51,7 @@ async function syncSheets() {
 
 // Run the sync function every 2 seconds using setInterval
 setInterval(() => {
-  
+    console.log('Running sync...'); 
   syncSheets();
 }, 1000); // 2000 milliseconds = 2 seconds
 
