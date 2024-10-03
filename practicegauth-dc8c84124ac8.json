@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "practicegauth",
+  "private_key_id": "dc8c84124ac8ed5bb3f7dd8674ee37d44a5e966d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCmfHeNYzh/WprN\n2PDQePdmIpoBAq6FhsGEI8Pu3bebWOYVDlTCY0fthWYOyRLfxSsKAMEDh4jK2oS5\nuGf7aCI5AfWaVMWq0Au24j/Yqp1AA5NaiXPvmxATFuvLUkI+sZCVHE72RQxiaE+B\nXZNKTG2joqeRN97gLGkY+5alxI+szzfhaQzysAxbG5py8ozRf1W0kVmsLVR72q5B\nq50ZfuD9LK6YeSktx5UL+eb1MpwVhAeXTQvynNKb9fuxU4vPwZ9IOsrSLUjuED5p\nmKcDUai5JrjAxJWCGqTB08wsMiYGKnGmKMajFprOmIBCRDnS0aaHvTuiuN8TlXWl\n1UTbbsyJAgMBAAECggEAGoa2XbazZ8c95xJrvCup74IP251bxTalWrKAI2z8NipB\n7pTr+FTtPvEEQ9LRyQmXQ+6+0hskNn3+q8CwAKSk30Rqp35eSEsBss/1sEXu7CYl\nskU4TbL9Kq16QFkI6QhNqxRpmF+EC6HnGQuZzjrDNVFTNZYbUsiArlRXum3JHpVb\nsMnASbXVZYgE1ugQbgUobeKXiR9fk6+UfDAh9MHT2ljkrhWZSIO44id43lVL8ZGf\nCQTYmfrS508yZ2yvbCq+MDc5srXjv65xHZ5waNcA+IHQxP+BIvq/bF6nudLbNepn\nt4INntvhXblUenNyxFlc+WIdaNmKi7FPZkt81l93yQKBgQDeNNEoLPk4wzIstPZj\nKAxOIbIuMs2RXZtM0BflwiYnpLLvwISPXDt4jJrjwvKIVXAZjj7ZxApJWYxW+Phf\np4OLTfq9cs4r049rT3de3D4vgQBBnKok6LUabUwQOUlgd/a2PYysRIZRzSdZ5fZA\n25IoM/Mv4b5yOLC+6GDTQXZ83wKBgQC/zkrixnJZhHXM5FsCI7K2TQYqQVs76Kzq\nZdfRsvHvt/kbfdOReu5KJmrBWZ6bAqzMlE+2jNPTfeMOOTAAvgiTGJEbAVY6PU/S\nRFut3T9DsAQcdaNWAveMzbAvEOctY07OobCFoXTez3XmrCG3Eh1iHXu4nqHJ8CDN\nG9I3NPR7lwKBgH6iMRSpVLrBm0WZN9VYjHK2h1oGv9p5Mzk6WnQpCh+LoCI8YA9n\na8kOsHLeteN2dXVK+IyYSZh1vSIPr1SsHa51GVGALPkTD2gDmK7p61KdPO0ngFua\ndyOBaFjSnPuqQmKnfxTp1Han6SY1hPp/Z7MbsBr4ltV3c1rJCe07IHCXAoGAJzVv\nf34boAsA3bqMlBpiDPwf14F2uf9tYZkiDh7rcBqGlMUa+7FKhuPljNLaJkvcsRFc\nXi/ZmXExehXcpzoxnIg4GXIjg1JHP+9zYk5JAXg4zuyJUCrZGfJuIqDs8Q1M7daF\ntDt2HZoBOv9TAQ517TmjsfDTl+k7e1JFnb14gM8CgYEAycLmiirxgF9gO5bPOFzg\nBGiPQZ8RqVWKLrcik33u3D87qh0XtPHuJS6MFY4KrTP/rG3rEsj6jQAC3XGpfojv\ncwbfY1WdEGh6uzlnCJKl52vf0OXi76+xHG6QqW1Vs7nGBSzIkJigHhbd3GjG15ha\n1yVMOWskdrEF4x03nclEen0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "syncing-excel@practicegauth.iam.gserviceaccount.com",
+  "client_id": "105658611852384175964",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/syncing-excel%40practicegauth.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
