@@ -13,6 +13,7 @@
     "@pnp/sp-commonjs": "^2.15.0",
     "axios": "^1.7.7",
     "dot-env": "^0.0.1",
+    "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "fs": "^0.0.1-security",
     "googleapis": "^144.0.0",
